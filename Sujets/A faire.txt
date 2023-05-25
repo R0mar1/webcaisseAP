@@ -1,0 +1,7 @@
+- Modifier la base de données :
+	- Table mère	-> client (+Siège social, -utPseudo, -utAvatar)
+					-> consommateurs (+idFidélité, -utPseudo, )
+	- Supprimer table util_avatar
+	- Créer table point de vente (+idformule)
+	- Créer table formule (idformule, nom formule, description formule)
+	- Créer une table historique de souscription
